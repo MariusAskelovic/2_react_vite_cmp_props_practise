@@ -5,7 +5,7 @@ function Header() {
         objectFit: 'cover',
         backgroundImage: 'url(/img/headerBg.jpg)',
         position: 'relative',
-        minHeight: '250px',
+        minHeight: '280px',
         display: 'flex',
         textAlign: 'center',
     }
@@ -30,7 +30,7 @@ function Header() {
         borderRadius: '5px'
     }
     const h2Style = {
-        fontSize: '40px'
+        fontSize: '30px'
     }
 
     return (
