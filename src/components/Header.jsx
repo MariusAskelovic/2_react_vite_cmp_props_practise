@@ -29,11 +29,14 @@ function Header() {
         fontSize: '16px',
         borderRadius: '5px'
     }
+    const h2Style = {
+        fontSize: '40px'
+    }
 
     return (
         <div style={headerStyling}>
             <div style={headerTextStyle}>
-                <h2>Title</h2>
+                <h2 style={h2Style}>Title</h2>
                 <p>Some about text <span style={dispBlock}>in two lines</span></p>
                 <button style={headerBtnStyle}>Button</button>
             </div>

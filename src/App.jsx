@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio'
 export const portfolioArr = [
   {
     id: '1',
-    img: './public/img/2.jpg',
+    img: '/img/2.jpg',
     cardText: 'Colorful tiles'
   },
   {
@@ -42,7 +42,7 @@ function App() {
     <>
       <Header />
       {false && <Hero
-        heroBgColor='blue'
+        heroBgColor='tomato'
         heroText='Info hero'
         subtitleText='Info subtitle'
       />}
